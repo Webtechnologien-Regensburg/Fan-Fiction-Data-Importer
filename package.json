@@ -1,0 +1,16 @@
+{
+  "name": "fan-fiction-data-importer",
+  "version": "1.0.0",
+  "description": "A small importer to transfer JSON based fan fiction into a SQLite database.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js db.sqlite data"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexander Bazo <alexanderbazo@googlemail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "sqlite3": "^5.0.0"
+  }
+}
