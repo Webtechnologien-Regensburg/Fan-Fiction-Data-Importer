@@ -2,7 +2,7 @@
 
 import DatabaseImporter from "./lib/DatabaseImporter.js";
 import StoryParser from "./lib/StoryParser.js";
-import { RatingFilter, MinTextLengthFilter, StoppwordFilter, WarningFilter } from "./lib/StoryFilter.js";
+import { RatingFilter, MinTextLengthFilter, WarningFilter } from "./lib/StoryFilter.js";
 
 let dbFile = process.argv[2],
   dataPath = process.argv[3];
